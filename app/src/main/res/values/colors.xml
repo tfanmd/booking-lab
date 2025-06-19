@@ -4,4 +4,8 @@
     <color name="white">#FFFFFFFF</color>
     <color name="ungu">#9C27B0</color>
     <color name="color_prima">#D1C4E9</color>
+    <color name="abu">#888888</color>
+    <color name="abuterang">#666666</color>    <!-- Abu-abu sedang -->
+    <color name="abugelap">#444444</color>    <!-- Abu-abu gelap -->
+
 </resources>

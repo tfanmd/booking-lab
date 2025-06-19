@@ -30,6 +30,14 @@
         android:id="@+id/list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah Data"
+        android:id="@+id/tambahData"
+        android:padding="15dp"
+        android:layout_margin="14dp" />
 
 
 

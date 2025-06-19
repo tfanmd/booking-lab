@@ -45,10 +45,12 @@ public class Adaptor extends BaseAdapter {
             nama = view.findViewById(R.id.nama);
             alamat = view.findViewById(R.id.alamat);
             no_telp = view.findViewById(R.id.no_telp);
+            TextView inisial = view.findViewById(R.id.inisial);
 
             nama.setText(model.get(position).getNama());
             alamat.setText(model.get(position).getAlamat());
             no_telp.setText(model.get(position).getNo_telp());
+            inisial.setText(model.get(position).getInisial());
         }
         return view;
     }
