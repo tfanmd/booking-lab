@@ -1,4 +1,4 @@
-package com.example.cobamysql;
+package com.example.cobamysql.Activity;
 
 import  android.os.Bundle;
 import android.widget.Toast;
@@ -14,6 +14,8 @@ import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.example.cobamysql.Adapter.getData;
 import com.example.cobamysql.Adapter.RiwayatAdapter;
+import com.example.cobamysql.Configurasi;
+import com.example.cobamysql.R;
 
 import org.json.JSONArray;
 import org.json.JSONException;

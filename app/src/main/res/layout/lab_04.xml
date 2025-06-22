@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LAB 04"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Lab Programming"
+        android:textColor="#616161" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Jam tersedia:"
+        android:textColor="@color/biru_gelap" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView style="@style/TimeSlotButton.Available" android:text="08.00" />
+        <TextView style="@style/TimeSlotButton.Unavailable" android:text="10.40" />
+        <TextView style="@style/TimeSlotButton.Available" android:text="13.25" />
+        <TextView style="@style/TimeSlotButton.Available" android:text="16.10" />
+    </LinearLayout>
+</LinearLayout>
